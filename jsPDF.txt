@@ -1,0 +1,13 @@
+function generateCertificate() {
+    const doc = new jsPDF();
+    doc.text("Firearm Identification System Certificate", 10, 10);
+    // Add more fields dynamically
+    doc.save("certificate.pdf");
+}
+
+function generateJobCard() {
+    const doc = new jsPDF();
+    doc.text("Job Card: Installation of Microdots", 10, 10);
+    // Add more fields dynamically
+    doc.save("job-card.pdf");
+}
